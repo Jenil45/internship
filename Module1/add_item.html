@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Items</title>
+    <link rel="stylesheet" href="add_item.css">
+</head>
+
+<body class="container">
+    <nav>
+        <div class="navbar">
+
+            <div class="logo">i-Item</div>
+            <ul class="listContainer">
+                <a href="#home">
+                    <li class="list">Home</li>
+                </a>
+                <a href="#addItem">
+                    <li class="list">Add Product</li>
+                </a>
+                <a href="">
+                    <li class="list">Watch Products</li>
+                </a>
+                <a href="">
+                    <li class="list">Contact</li>
+                </a>
+            </ul>
+        </div>
+
+    </nav>
+    <div id="home">
+        <div class="hLeft">
+            <h1>Find the best here</h1>
+            <figure>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <figcaption>- Jenil Thakor</figcaption>
+            </figure>
+            <button class="btn">Add Item</button>
+        </div>
+        <div class="hRight">
+            <video width="340" height="240" src="./mov_bbb.mp4" controls></video>
+        </div>
+    </div>
+
+    <div class="" id="addItem">
+
+        <h1>Add Item</h1>
+        <form class="itemForm" action="">
+            <div class="inputContainer">
+                <label for="itemName" class="itemLabel">Item Name</label>
+                <input type="text" id="itemName" placeholder="Item name here..." name="itemName" required="required">
+            </div>
+            <div class="inputContainer">
+                <label for="itemName" class="itemLabel">Category</label>
+                <select name="itemCategory" id="itemCategory">
+                    <option value="item1">Item1</option>
+                    <option value="item2">Item2</option>
+                    <option value="item3">Item3</option>
+                    <option value="item4">Item4</option>
+                </select>
+            </div>
+            <div class="features">
+                <div class="checkboxContainer">
+                    <input type="checkbox" id="feature1" name="feature1" value="f1">
+                    <label for="itemName" class="checkboxLabel">Feature 1</label>
+                </div>
+                <div class="checkboxContainer">
+                    <input type="checkbox" id="feature2" name="feature2" value="f2">
+                    <label for="itemName" class="checkboxLabel">Feature 2</label>
+                </div>
+                <div class="checkboxContainer">
+                    <input type="checkbox" id="feature3" name="feature3" value="f3">
+                    <label for="itemName" class="checkboxLabel">Feature 3</label>
+                </div>
+            </div>
+            <div class="inputContainer">
+                <label for="itemName" class="itemLabel">Description</label>
+                <textarea id="itemDesc" placeholder="Description about item here..." name="itemDesc" required="required"
+                    rows="8" cols="12"></textarea>
+            </div>
+
+
+            <input type="submit" value="Add Item" class="btn">
+        </form>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="itemContainer">
+        <div class="itemCard">
+            <h3>Title</h3>
+            <h5>Category</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus sapiente harum aut magnam non beatae
+                voluptates magni ip..</p>
+            <ul class="featureContainer">
+                <li class="feature">Feature1</li>
+                <li class="feature">Feature1</li>
+                <li class="feature">Feature1</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

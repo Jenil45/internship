@@ -1,6 +1,6 @@
 /*TODO HTML_Learning
-    [ ] What is HTML ?
-    [ ] Basics of HTML ?
+    [x] What is HTML ?
+    [x] Basics of HTML ?
     [ ] HTML5 ?
     [ ] Advance Concept ?
 */
