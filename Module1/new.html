@@ -13,12 +13,47 @@
             background-attachment: fixed;
             background-size: cover;
         }
+
+        /* Watch items end */
+
+        #div1,
+        #d2 {
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+        }
+
+        #div1 img,
+        #d2 img {
+            width: 150px;
+        }
     </style>
+
+    <script>
+
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("text", ev.target.id);
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
 </head>
 
 <body>
     <h1>New page</h1>
     <a href="./basics.html">Basics</a>
+    <div>
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <img id="drag1" src="jenil.jpeg" draggable="true" ondragstart="drag(event)" width="336" height="300">
+    </div>
 </body>
 
 </html>

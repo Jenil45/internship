@@ -10,16 +10,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic of HTML Module1 task 1</title> <!-- specidy the title of html page -->
     <link rel="shortcut icon" href="./jenil.jpeg" type="image/x-icon">
-    <style>
-        body {
-            background-color: hsla(0, 0%, 0%, 0.87);
-            color: white;
-            text-align: center;
+    <script>
+        function loadCSS() {
+            const linkCSS = document.getElementById("unloadedCSS");
+
+            linkCSS.rel = "stylesheet"
         }
-    </style>
+    </script>
+    <link rel="" id="unloadedCSS" href="./loaderCSS.css" as="style">
 </head>
 
 <body> <!-- document's body-->
+    <button onclick="loadCSS()">Load CSS</button>
     <h1 style="color: red;">This is module 1 task 1</h1>
     <p title="This is paragraph">In this I will learn what is HTML and basic of HTML</p>
     <a href="./new.html">New Page</a>
@@ -60,8 +62,8 @@ Line3
     </blockquote>
     <q>Quotes</q>
     <abbr title="Domain Name System">DNS</abbr>
-    <iframe src="http://127.0.0.1:5500/Module1/basics.html" style="height:200px;width:300px;"
-        title="Iframe Example"></iframe>
+    <!-- <iframe src="http://127.0.0.1:5500/Module1/basics.html" style="height:200px;width:300px;"
+        title="Iframe Example"></iframe> -->
 </body>
 
 </html>
