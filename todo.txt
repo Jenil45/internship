@@ -1,3 +1,11 @@
 /*TODO
     [ ] Module1
 */
+
+Today's Work - 05 - 09 - 2023
+-----------------
+Task: CSS property and its all value, Media queries ? 
+Status: Done
+
+Task: Advance concept of CSS & CSS3
+Status: In Progress
