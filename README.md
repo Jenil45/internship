@@ -47,3 +47,16 @@ This is my first day and I have one module to finsh in few days
   - Task 3
     - Task : Advance concept of CSS & CSS3
     - Status : In Progress
+
+## Day 4 :
+
+- CSS Learnings
+
+  - Task 1
+
+    - Task : CSS property and its all value, Media queries ?
+    - Status : Done
+
+  - Task 2
+    - Task : Advance concept of CSS & CSS3
+    - Status : In Progress
