@@ -1,0 +1,102 @@
+/* Rule-1 : First use comment to create header */
+/* Rule-2 : Please keep all properties in ascending order of alphabets */
+/* Rule-3 : Make a sections , elements , modifiers different section*/
+/* Rule-4 : Keep name the class of 
+            (i)   section based on its original name
+            (ii)  element itsname followed by its major parent element name with two underscores(__) (e.g., header__card )
+            (iii) name class modifier as with two dashes(--) (e.g., btn--secondary)
+*/
+
+
+/* || RESET */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* || VARIABLES */
+
+:root
+{
+    /* COLORS */
+    --BGCOLOR: whitesmoke;
+    --COLOR: #000;
+
+    /* HEADER SECTION COLORS */
+    --HEADER-BGCOLOR: #262525;
+    --HEADER_COLOR: whitesmoke;
+
+    /* HEADER MAIN BUTTON COLORS */
+    --HEADER-BTN-BGCOLOR: lightblue;
+    --HEADER-BTN-HOVER-BGCOLOR: blue;
+}
+
+/* || UTILITY Classes */
+
+.underline
+{
+    text-decoration: underline;
+}
+
+.title
+{
+    text-transform: capitalize;
+}
+
+/* || GENERAL STYLE */
+
+html {
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body
+{
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* || BLOCKS (A specific component major elemnt like header , sidebar , home) */
+.header
+{
+    background-color: var(--HEADER-BGCOLOR);
+    color: var(--HEADER_COLOR);
+    padding: 1rem 1rem 0.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+/* || ELEMENTS */
+.header__btn
+{
+    width: 200px;
+    height: 80px;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* || MODIFIERS (put increamental style changes here ) */
+.header__btn--secondary
+{
+    background-color: var(--HEADER-BTN-BGCOLOR);
+}
+
+.header__btn--secondary:hover
+{
+    background-color: var(--HEADER-BTN-HOVER-BGCOLOR);
+}
+
+.header__btn--border
+{
+    border: 1px solid blue;
+}
