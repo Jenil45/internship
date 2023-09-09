@@ -1,0 +1,99 @@
+/* || RESET */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* || VARIABLES */
+
+:root
+{
+    /* COLORS */
+    --BGCOLOR: whitesmoke;
+    --COLOR: #000;
+
+    /* HOME SECTION COLORS */
+    --HOME-BGCOLOR: dodgerblue;
+    --HOME-COLOR: white;
+    
+    /* CARD COLOR */
+    --CARD-BGCOLOR: whitesmoke ;
+    --CARD-COLOR: #000;
+}
+
+/* || UTILITY CLASS */
+
+/* || GENERAL STYLE */
+body
+{
+    background-color: var(--BGCOLOR);
+    color: var(--COLOR);
+    width: 100svw;
+}
+
+/* || BLOCK STYLE */
+.home
+{
+    width: min(90% , 80rem);
+    background-color: var(--HOME-BGCOLOR);
+    color: var(--HOME-COLOR);
+    margin: 1em auto 0.5em;
+}
+
+/* || ELEMENT STYLE */
+.home__title
+{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.home__grid
+{
+    margin: 5rem auto;
+    width: min(90% , 75rem);
+    display: grid;
+    /* grid-template-columns: 33% 33% 33%; below is alternate */
+    grid-auto-flow: row;
+    gap: 1em;
+}
+
+@media (min-width : 45em) {
+    .home__grid
+    {
+        grid-auto-flow: column;
+    }
+}
+
+.home__card
+{
+    background-color: var(--CARD-BGCOLOR);
+    color: var(--CARD-COLOR);
+    padding: 1em;
+    border-radius: 12px;
+    margin-bottom: 2em;
+}
+
+.home__cardtitle
+{
+    font-weight: bold;
+}
+
+.home__cardcontent
+{
+    color: black;
+}
+
+/* || MODIFIER STYLE */
+.home__card--card-alignment
+{
+    /* display */
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    /* text alignment */
+    text-align: justify;
+}
