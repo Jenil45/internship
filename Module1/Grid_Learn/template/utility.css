@@ -1,0 +1,57 @@
+/* || UTILITY CLASS */
+.text-clip{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-radius{
+    border-radius: 12px;
+}
+
+.border-btn{
+    border: 1px solid var(--border-color);
+}
+
+.card-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.transition{
+    transition: all 0.4s ease-in-out;
+}
+
+.grid-center{
+    display: grid;
+    place-content: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.align-start{
+    align-items: start;
+}
+
+.justify-start{
+    justify-content: start;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.p-general{
+    padding: 1em;
+}

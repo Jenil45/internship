@@ -1,0 +1,209 @@
+/* 
+    display : grid
+    
+    / grid auto-flow : row  /
+    / grid auto-flow : column  /
+
+    / grid-template-columns: 200px 100px 50px make 3 column with given width /
+    / grid-template-columns: 2fr 1fr 2fr make 3 column with given fraction /
+
+    / grid-template-rows: 200px 100px 50px make 3 rows with given height /
+    / grid-template-rows: 2fr 1fr 2fr make 3 rows with given fraction /
+
+    / row-gap : 1em/
+    / column-gap : 1em/
+    / gap : 1em/
+
+    / Taking space /
+
+    / grid-column-start: 1 /
+    / grid-column-end: 4 /
+    / grid-column: 1/4 /
+
+    / grid-row-start: 1 /
+    / grid-row-end: 4 /
+    / grid-row: 1/4 /
+
+    / Alignment /
+
+    / display: grid /
+    / align-content: start , center , end /
+    / justify-content: start , center , end /
+    / place-content: align / justify /
+
+    / Grid Areas /
+    / grid-template-areas: define area for all column and rows
+    header = hd
+
+    grid-template-columns : repeat(9 , 1fr) 9 column with 1 fr
+
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd hd "
+    "mn mn mn mn mn mn mn sb sb "
+    "ft ft ft ft ft ft ft ft ft "
+
+    in that section 
+    grid-area: hd;
+    /
+*/
+
+/* || RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* || VARIABLES */
+:root{
+
+    /* COLORS */
+    --BGCOLOR: whitesmoke;
+    --COLOR: #000;
+
+    /* HEADER COLOR */
+    --HEADER-BGCOLOR: #800080;
+    --HEADER-COLOR: white;
+    
+    /* SUBNAV COLOR */
+    --SUBNAV-BGCOLOR: #008080;
+    /* --SUBNAV-BGCOLOR: rgba(123, 7, 123, 0.384); */
+    --SUBNAV-COLOR: whitesmoke;
+    
+    /* MAIN COLOR */
+    --MAIN-BGCOLOR: whitesmoke;
+    --MAIN-COLOR: black;
+
+    /* MAIN CARD COLOR */
+    --MAIN-CARD-BGCOLOR: whitesmoke;
+    --MAIN-CARD-COLOR: purple;
+
+    /* SIDEBAR COLOR */
+    --SIDEBAR-BGCOLOR: #808000;
+    --SIDEBAR-COLOR: whitesmoke;
+
+    /* FOOTER COLOR */
+    --FOOTER-BGCOLOR: purple;
+    --FOOTER-COLOR: white;
+
+    /* GENERAL COLOR */
+    --text-color: #b300b3;
+    --btn-hover-color: #b300b3;
+    --border-color: #b300b3;
+}
+
+/* || GENERAL STYLE */
+body{
+    background-color: var(--BGCOLOR);
+    color: var(--COLOR);
+    width: 100svw;
+    height: 100svh;
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    grid-auto-rows: 1fr 2fr 8fr 1fr;
+    grid-template-areas: 
+        "hd hd hd hd hd"
+        "snav snav snav snav snav"
+        "main main main main sb"
+        "ft ft ft ft ft "
+    ;
+}
+
+img{
+    width: 150px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* || BLOCK STYLE */
+.header{
+    background-color: var(--HEADER-BGCOLOR);
+    color: var(--HEADER-COLOR);
+    grid-area: hd;
+}
+
+.subnav{
+    background-color: var(--SUBNAV-BGCOLOR);
+    color: var(--SUBNAV-COLOR);
+    grid-area: snav;
+}
+
+.main{
+    background-color: var(--MAIN-BGCOLOR);
+    color: var(--MAIN-COLOR);
+    grid-area: main;
+    padding: 1em;
+}
+
+.sidebar{
+    background-color: var(--SIDEBAR-BGCOLOR);
+    color: var(--SIDEBAR-COLOR);
+    grid-area: sb;
+}
+
+.footer{
+    background-color: var(--FOOTER-BGCOLOR);
+    color: var(--FOOTER-COLOR);
+    grid-area: ft;
+}
+
+
+/* || ELEMENT STYLE */
+
+.main_cardcontainer{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-auto-rows: 160px;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.main__card{
+    background-color: var(--MAIN-CARD-BGCOLOR);
+    color: var(--MAIN-CARD-COLOR);
+    
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: 1fr 5fr;
+    column-gap: 0.5em;
+    row-gap: 0.2em;
+
+    padding: 0.3em;
+}
+
+.main__cardimage{
+    grid-column: 1/2;
+    grid-row: 1/4;   
+}
+
+.main__btn{
+    padding: 0.4em;
+    color: var(--text-color);
+}
+
+.garbage{
+    /* background-color: red; */
+}
+
+.main__cardcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.main__paracontent{
+    color: var(--text-color);
+}
+
+
+/* || ACTIONS */
+.main__btn:hover{
+    background-color: var(--border-color);
+    color: white;
+}
+
+/* || MODIFIER STYLE */
