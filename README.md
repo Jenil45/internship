@@ -81,7 +81,7 @@ This is my first day and I have one module to finsh in few days
   - Task 1
 
     - Task: Advance concept of CSS & CSS3
-      Status: Done
+    - Status: Done
 
   - Task 2
 
@@ -91,3 +91,21 @@ This is my first day and I have one module to finsh in few days
   - Task 3
     - Task: Block Element Modifier (Naming Convention and Object Oriented CSS)
     - Status: In Progress
+
+## Day 7 :
+
+- CSS Learnings
+
+  - Task 1
+
+    - Task: CSS Grid(Grid Layout and SubGrid)
+    - Status: Done
+
+  - Task 2
+
+    - Task: Block Element Modifier
+    - Status: In Progress
+
+  - Task 3
+    - Task: CSS Practice using Organizing CSS Methods(SMACSS , OOCSS , BEM Naming Convention)
+    - Status: In progress
