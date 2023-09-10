@@ -1,0 +1,10 @@
+/* || UTILITY CSS CLASS */
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.center {
+    display: grid;
+    place-content: center;
+}
