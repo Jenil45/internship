@@ -1,0 +1,21 @@
+/* || UTILITY CSS */
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.center {
+    display: grid;
+    place-content: center;
+}

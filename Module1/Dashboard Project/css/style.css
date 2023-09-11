@@ -1,0 +1,80 @@
+/* || BLOCKS */
+
+/* SIDEBAR */
+
+.sidebar {
+    background-color: var(--PRIMARY-COLOR);
+    position: fixed;
+    width: 300px;
+    overflow: hidden;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+/* || ELEMENTS */
+.sidebar__ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.sidebar__li , .sidebar__logo{
+    position: relative;
+    width: 100%;
+}
+
+.sidebar__li a {
+    position: relative;
+    display: block;
+    width: 99%;
+    display: flex;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    left: 1%;
+}
+
+.sidebar__li-icon , 
+.sidebar__logo-icon {
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.sidebar__li-title,
+.sidebar__logo-title {
+    display: block;
+    line-height: 60px;
+    height: 60px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* || ACTIONS */
+.sidebar-active {
+    width: 80px;
+}
+
+.sidebar__li:hover a{
+    background-color: var(--BGCOLOR);
+}
+
+.sidebar__li-icon ion-icon {
+    font-size: 1.25rem;
+}
+
+/* || MODIFIER */
+.sidebar__logo--align {
+    position: relative;
+    display: block;
+    width: 99%;
+    display: flex;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: 1.5rem;
+    color: var(--BGCOLOR);
+    place-content: center start;
+    margin-bottom: var(--MARGIN-TB);
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Nunito&display=swap');
+
+/* || RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* || VARIABLES */
+
+:root {
+
+    /* TETRADIC COLOR COMBINATION */
+    --PRIMARY-COLOR: #85214A;
+    --SECONDARY-COLOR: #85214A;
+    --THIRD-COLOR: #7C8521;
+    --FOURTH-COLOR: #21855C;
+
+    /* COLORS */
+    --BGCOLOR: whitesmoke;
+    --COLOR: #000;
+    --SIDEBAR-BGCOLOR: var(--PRIMARY-COLOR);
+    --SIDEBAR-COLOR: whitesmoke;
+    --LINK-COLOR: whitesmoke;
+    --LINK-ACTIVE-BGCOLOR: whitesmoke;
+    --LINK-ACTIVE-COLOR: var(--PRIMARY-COLOR);
+    --BORDER-COLOR: #333;
+    --CARD-COLOR: #333;
+
+    /* BORDERS */
+    --BORDER: 1px solid var(--BORDER-COLOR);
+    --BORDER-RADIUS: 15px;
+
+    /* FONT */
+    --FF: "Nunito" , sans-serif;
+    --FF-TITLE: "Fugaz One", cursive;
+    --FS: clamp(1rem , 1.3rem , 1.5rem);
+
+    /* GENERAL */
+
+    --PADDING: 0.25em 0.5em;
+    --MARGIN-TB: 1em; 
+    --MARGIN-RL: 1em;
+    --SHADOWS: 0 6px 5px -5px var(--COLOR);
+}
+
+/* || GENERAL CSS */
+
+html {
+    scroll-behavior: smooth;
+    font-size: var(--FS);
+    font-family: var(--FF);
+}
+
+body {
+    background-color: var(--BGCOLOR);
+    color: var(--COLOR);
+    min-height: 100svh;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+button,
+textarea {
+    font: inherit;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--FF-TITLE);
+    letter-spacing: 0.1em;
+}
+   
+p {
+    line-height: 1.5;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--LINK-COLOR);
+}
+
+/* a:any-link {
+} */
+
+a:hover,
+a:focus {
+    color: var(--LINK-ACTIVE-COLOR);
+    background-color: var(--LINK-ACTIVE-BGCOLOR);
+}
