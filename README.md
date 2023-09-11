@@ -109,3 +109,17 @@ This is my first day and I have one module to finsh in few days
   - Task 3
     - Task: CSS Practice using Organizing CSS Methods(SMACSS , OOCSS , BEM Naming Convention)
     - Status: In progress
+
+## Day 8 :
+
+- CSS Learnings
+
+  - Task 1
+
+    - Task: CSS Practice using BEM
+    - Status: In Progress
+
+  - Task 2
+
+    - Task: Admin Dashboard Practise (Sidebar Design , Responsive Card Design)
+    - Status: In progress
