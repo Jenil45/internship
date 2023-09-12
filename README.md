@@ -123,3 +123,22 @@ This is my first day and I have one module to finsh in few days
 
     - Task: Admin Dashboard Practise (Sidebar Design , Responsive Card Design)
     - Status: In progress
+
+## Day 9 :
+
+- CSS Learnings
+
+  - Task 1
+
+    - Task: Block Element Modifier
+    - Status: Done
+
+  - Task 2
+
+    - Task: Admin Dashboard Practise (Data Table Design , Form Design , Hamburger using JS , Responsivness)
+    - Status: Done
+
+  - Task 3
+
+    - Task: Bootstrap
+    - Status: In Progress
