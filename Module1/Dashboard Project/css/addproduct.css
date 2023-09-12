@@ -1,0 +1,46 @@
+/* || ELEMENTS */
+.main__form {
+    margin-top: var(--MARGIN-TB);
+}
+
+.main__input-container {
+    font-family: var(--FF);
+    display: grid;
+    gap: 0.5em;
+    margin-top: 1em;
+}
+
+.main__label {
+    color: var(--BORDER-COLOR);
+}
+
+.main__form-input {
+    width: 100%;
+
+    background-color: transparent;
+    padding: 0.5em 0.4em;
+    border: 2px solid lightgray;
+    border-radius: 2px;
+
+    font-size: 0.8em;
+
+}
+
+.main__btn-container {
+    margin-top: 1.5em;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-gap: 2em;
+}
+
+/* || ACTION */
+.main__form-input:focus {
+    
+    outline: 2px solid var(--PRIMARY-COLOR);
+}
+
+/* || MODIFIER */
+
+.main__add-product {
+    grid-template-columns: 1fr !important;
+}

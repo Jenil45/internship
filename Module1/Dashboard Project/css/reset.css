@@ -13,7 +13,7 @@
 :root {
 
     /* TETRADIC COLOR COMBINATION */
-    --PRIMARY-COLOR: #85214A;
+    --PRIMARY-COLOR: #85214a;
     --SECONDARY-COLOR: #85214A;
     --THIRD-COLOR: #7C8521;
     --FOURTH-COLOR: #21855C;
@@ -92,6 +92,23 @@ li {
 a {
     text-decoration: none;
     color: var(--LINK-COLOR);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tbody {
+    margin-top: 100px;
+}
+
+th {
+    font-weight: 600;
+    padding: var(--PADDING);
+}
+
+td {
+    padding: 2em var(--PADDING);
 }
 
 /* a:any-link {

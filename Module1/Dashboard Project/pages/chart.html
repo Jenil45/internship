@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dashboard</title>
+
+    <!-- STYLES HERE -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/utility.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/products.css">
+    <link rel="stylesheet" href="../css/addproduct.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- STYLES HERE -->
+</head>
+
+<body class="relative">
+    <div id="sidebar" class="sidebar ">
+        <ul class="sidebar__ul">
+            <li class="sidebar__logo sidebar__logo--align">
+                <span class="sidebar__logo-icon">
+                    <ion-icon name="logo-apple"></ion-icon>
+                </span>
+                <span class="sidebar__logo-title">
+                    Admin
+                </span>
+            </li>
+            <li class="sidebar__li">
+                <a href="../">
+                    <span class="sidebar__li-icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="sidebar__li-title">
+                        Dashboard
+                    </span>
+                </a>
+            </li>
+            <li class="sidebar__li">
+                <a href="./products.html">
+                    <span class="sidebar__li-icon">
+                        <ion-icon name="people-outline"></ion-icon>
+                    </span>
+                    <span class="sidebar__li-title">
+                        Products
+                    </span>
+                </a>
+            </li>
+            <li class="sidebar__li">
+                <a href="./addproduct.html">
+                    <span class="sidebar__li-icon">
+                        <ion-icon name="add-outline"></ion-icon>
+                    </span>
+                    <span class="sidebar__li-title">
+                        Add Product
+                    </span>
+                </a>
+            </li>
+            <li class="sidebar__li">
+                <a href="./chart.html">
+                    <span class="sidebar__li-icon">
+                        <ion-icon name="stats-chart-outline"></ion-icon>
+                    </span>
+                    <span class="sidebar__li-title">
+                        Charts
+                    </span>
+                </a>
+            </li>
+            <li class="sidebar__li">
+                <a href="#">
+                    <span class="sidebar__li-icon">
+                        <ion-icon name="settings-outline"></ion-icon>
+                    </span>
+                    <span class="sidebar__li-title">
+                        Settings
+                    </span>
+                </a>
+            </li>
+            <li class="sidebar__li">
+                <a href="#">
+                    <span class="sidebar__li-icon">
+                        <ion-icon name="log-out-outline"></ion-icon>
+                    </span>
+                    <span class="sidebar__li-title">
+                        Sign Out
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="main" class="main">
+        <div class="main__topbar">
+            <div class="main__menu center" onclick="setSidebar()">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+
+            <div class="main__search">
+                <label for="" class="main__label">
+                    <input type="text" class="main__input" placeholder="Search here">
+                    <ion-icon name="search-outline"></ion-icon>
+                </label>
+            </div>
+
+            <div class="main__user">
+                <img src="../assets/images/jenil.jpeg" alt="Profile image">
+            </div>
+        </div>
+
+        <div class="main__detail-container main__add-product">
+            <div class="main__detail-card">
+                <div class="main__card-head">
+                    <h2>Add Product</h2>
+                </div>
+            </div>
+            <!-- <div class="main__detail-card">
+                <div class="main__card-head">
+                    <h2>Update Product</h2>
+                </div>
+            </div> -->
+        </div>
+
+    </div>
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="../js/index.js"></script>
+
+
+</html>

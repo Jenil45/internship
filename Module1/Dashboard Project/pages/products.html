@@ -7,11 +7,12 @@
     <title>Responsive Dashboard</title>
 
     <!-- STYLES HERE -->
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/utility.css">
-    <link rel="stylesheet" href="./css/home.css">
-    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/utility.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/products.css">
+    <link rel="stylesheet" href="../css/responsive.css">
     <!-- STYLES HERE -->
 </head>
 
@@ -27,7 +28,7 @@
                 </span>
             </li>
             <li class="sidebar__li">
-                <a href="./index.html">
+                <a href="../">
                     <span class="sidebar__li-icon">
                         <ion-icon name="home-outline"></ion-icon>
                     </span>
@@ -37,7 +38,7 @@
                 </a>
             </li>
             <li class="sidebar__li">
-                <a href="./pages/products.html">
+                <a href="./products.html">
                     <span class="sidebar__li-icon">
                         <ion-icon name="people-outline"></ion-icon>
                     </span>
@@ -47,7 +48,7 @@
                 </a>
             </li>
             <li class="sidebar__li">
-                <a href="./pages/addproduct.html">
+                <a href="./addproduct.html">
                     <span class="sidebar__li-icon">
                         <ion-icon name="add-outline"></ion-icon>
                     </span>
@@ -57,7 +58,7 @@
                 </a>
             </li>
             <li class="sidebar__li">
-                <a href="./pages/chart.html">
+                <a href="./chart.html">
                     <span class="sidebar__li-icon">
                         <ion-icon name="stats-chart-outline"></ion-icon>
                     </span>
@@ -102,122 +103,62 @@
             </div>
 
             <div class="main__user">
-                <img src="./assets/images/jenil.jpeg" alt="Profile image">
+                <img src="../assets/images/jenil.jpeg" alt="Profile image">
             </div>
         </div>
 
-        <div class="main__card-container">
-            <div class="main__card">
-                <div class="main__card-content center">
-                    <div class="main__numbers">3,888</div>
-                    <div class="main__cardtitle">Daily Views</div>
-                </div>
-                <div class="main__card-image center">
-                    <ion-icon name="eye-outline"></ion-icon>
-                </div>
-            </div>
-            <div class="main__card">
-                <div class="main__card-content center">
-                    <div class="main__numbers">100</div>
-                    <div class="main__cardtitle">Sales</div>
-                </div>
-                <div class="main__card-image center">
-                    <ion-icon name="cart-outline"></ion-icon>
-                </div>
-            </div>
-            <div class="main__card">
-                <div class="main__card-content center">
-                    <div class="main__numbers">22</div>
-                    <div class="main__cardtitle">Reviews</div>
-                </div>
-                <div class="main__card-image center">
-                    <ion-icon name="chatbubbles-outline"></ion-icon>
-                </div>
-            </div>
-            <div class="main__card">
-                <div class="main__card-content center">
-                    <div class="main__numbers">52,470</div>
-                    <div class="main__cardtitle">Total revenue</div>
-                </div>
-                <div class="main__card-image center">
-                    <ion-icon name="wallet-outline"></ion-icon>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="main__detail-container">
+        <div class="main__detail-container main__product">
             <div class="main__detail-card main__orders">
                 <div class="main__card-head">
-                    <h2>Recent Orders</h2>
+                    <h2>Your Products</h2>
                     <button class="main__btn">View All</button>
                 </div>
                 <table class="main__table">
                     <thead>
                         <tr>
-                            <th class="">Sr No</th>
-                            <th class="">Model Name</th>
+                            <th class="">Product Id</th>
+                            <th class="">Product Name</th>
+                            <th class="">Available Qty</th>
                             <th class="">Total Price</th>
-                            <th class="">Status</th>
+                            <th class="">Sales</th>
                         </tr>
                     </thead>
                     <tbody class="">
                         <tr class="main__counter">
                             <td><span class="main__srno"></span></td>
-                            <td class="main_td">Vivo</td>
-                            <td class="main_td">20,000</td>
-                            <td class="main__status delievered">Pending</td>
+                            <td class="">Vivo</td>
+                            <td class="">120</td>
+                            <td class="">20,000</td>
+                            <td class="">1,25,785</td>
                         </tr>
                         <tr>
                             <td><span class="main__srno"></span></td>
-                            <td class="main_td">MI</td>
-                            <td class="main_td">11,000</td>
-                            <td class="main__status delievered">Delievered</td>
+                            <td class="">MI</td>
+                            <td class="">100</td>
+                            <td class="">11,000</td>
+                            <td class="">1,25,785</td>
                         </tr>
                         <tr>
                             <td><span class="main__srno"></span></td>
-                            <td class="main_td">Xiaomi</td>
-                            <td class="main_td">16,000</td>
-                            <td class="main__status pending">Pending</td>
+                            <td class="">Xiaomi</td>
+                            <td class="">80</td>
+                            <td class="">16,000</td>
+                            <td class="">1,25,785</td>
                         </tr>
                         <tr>
                             <td><span class="main__srno"></span></td>
-                            <td class="main_td">RealMe</td>
-                            <td class="main_td">17,000</td>
-                            <td class="main__status cancelled">Cancelled</td>
+                            <td class="">RealMe</td>
+                            <td class="">200</td>
+                            <td class="">17,000</td>
+                            <td class="">1,25,785</td>
                         </tr>
                         <tr>
                             <td><span class="main__srno"></span></td>
-                            <td class="main_td">Vivo</td>
-                            <td class="main_td">20,000</td>
-                            <td class="main_td">
-                                <div class="main__status pending">
-                                    Pending
-                                </div>
-                            </td>
+                            <td class="">Vivo</td>
+                            <td class="">25</td>
+                            <td class="">20,000</td>
+                            <td class="">1,25,785</td>
                         </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="main__detail-card main__employees">
-                <div class="main__card-head">
-                    <h2>Employees</h2>
-                    <button class="main__btn">View All</button>
-                </div>
-                <table class="main__table">
-                    <thead>
-                        <th class="">Sr No</th>
-                        <th class="">Profile</th>
-                        <th class="">Name</th>
-                    </thead>
-                    <tbody>
-                        <tr class="main__profileid">
-                            <td><span class="main__srno"></span></td>
-                            <td class="main_td center"><img class="main__profile" src="./assets/images/jenil.jpeg"
-                                    alt=""></td>
-                            <td class="main_td">Jenil Thakor</td>
-                        </tr>
-
                     </tbody>
                 </table>
             </div>
@@ -228,7 +169,7 @@
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-<script src="./js/index.js"></script>
+<script src="../js/index.js"></script>
 
 
 </html>

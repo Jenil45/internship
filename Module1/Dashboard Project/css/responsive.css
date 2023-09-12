@@ -5,41 +5,44 @@
     }
 
     .sidebar {
-        /* width: 200px; */
-        width: 0px;
+        width: 0px !important;
     }
 
     .sidebar__li-title,
     .sidebar__logo-title{
-        display: none;
+        display: none !important;
     }
     
     .sidebar-active {
-        width: 80px;
+        width: 80px !important;
     }
 
     .main {
-        width: calc(100%);
-        left: 0px;
+        width: calc(100%) !important;
+        left: 0px !important;
     }
 
     .main-active {
-        width: calc(100% - 80px);
-        left: 80px;
+        width: calc(100% - 80px) !important;
+        left: 80px !important;
     }
 
     .main__topbar {
         /* position: fixed; */
-        width: 100%;
+        width: 100% !important;
     }
 
     .main__user {
-        display: none;
+        display: none !important;
     }
 
     .main__card-container {
         /* margin-top: 100px; */
-        grid-template-columns: repeat(1 , 1fr);
+        grid-template-columns: repeat(1 , 1fr) !important;
+    }
+
+    .main__detail-container {
+        grid-template-columns: repeat(1 , 1fr) !important;
     }
 }
 
@@ -68,9 +71,12 @@
         width: 100%;
     }
 
-
     .main__card-container {
         grid-template-columns: repeat(2 , 1fr);
+    }
+
+    .main__detail-container {
+        grid-template-columns: repeat(1 , 1fr) !important;
     }
 }
 

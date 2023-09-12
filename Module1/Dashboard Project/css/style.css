@@ -70,6 +70,7 @@
 
 .sidebar-active 
 :is(.sidebar__li-title , .sidebar__logo-title) {
+    transition: 15s;
     display: none;
 }
 

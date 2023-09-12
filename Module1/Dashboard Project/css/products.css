@@ -1,0 +1,5 @@
+/* MODIFIER TABLE */
+
+.main__product {
+    grid-template-columns: 1fr !important;
+}

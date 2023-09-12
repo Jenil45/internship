@@ -10,13 +10,14 @@
 
 /* || ELEMENTS */
 .main__topbar {
-    position: relative;
+    position: sticky;
+    top: 0;
     width: 100%;
     height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    z-index: 1;
     padding: 0 10px;
 }
 
@@ -111,6 +112,86 @@ img {
     color: var(--CARD-COLOR);
 }
 
+/* DETAILS */
+
+.main__detail-container {
+    position: relative;
+
+    width: 100%;
+    min-height: 500px;
+
+    padding: var(--PADDING);
+    margin-top: var(--MARGIN-TB);
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
+
+}
+
+.main__detail-card {
+    position: relative;
+
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: var(--BORDER-RADIUS);
+
+    /* box-shadow: var(--SHADOWS); */
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+
+
+}
+.main__card-head {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main__card-head h2 {
+    color: var(--PRIMARY-COLOR);
+}
+
+.main__btn {
+    padding: var(--PADDING);
+    background-color: var(--PRIMARY-COLOR);
+    color: white;
+    border: none;
+    border-radius: var(--BORDER-RADIUS);
+    cursor: pointer;
+    border: 2px solid var(--PRIMARY-COLOR);
+    transition: 0.6s;
+}
+
+.main__profile {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.main__table {
+    width: 100%;
+    margin-top: var(--MARGIN-TB);
+    text-align: center;
+    overflow-y: scroll;
+}
+
+.main__counter {
+    counter-reset: srno 658945;
+}
+
+.main__profileid {
+    counter-reset: srno 1000;
+}
+
+.main__srno::before {
+    counter-increment: srno;
+    content: "#"counter(srno);
+}
+
+.main__status {
+    font-weight: bold;
+}
+
 /* || ACTIONS */
 
 .main-active {
@@ -126,5 +207,32 @@ img {
     color: white;
 }
 
+.main__btn:hover {
+    background-color: white;
+    color: var(--PRIMARY-COLOR);
+    font-weight: bold;
+}
+
+/* tbody tr {
+    cursor: pointer;
+    border-radius: var(--BORDER-RADIUS);
+}
+
+tbody tr:hover {
+    background-color: var(--PRIMARY-COLOR);
+    color: white;
+} */
+
 
 /* || MODIFIERS */
+.pending {
+    color: rgb(171, 145, 0);
+}
+
+.delievered {
+    color: green;
+}
+
+.cancelled {
+    color: red;
+}
