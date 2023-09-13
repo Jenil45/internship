@@ -143,10 +143,16 @@ This is my first day and I have one module to finsh in few days
     - Task: Bootstrap
     - Status: In Progress
 
-## Today's Work - 12 - 09 - 2023
+## Day 10 :
 
-Task: Bootstrap (Documentation)
-Status: In Progress
+- CSS Learnings
 
-Task: Bootstrap (SASS Basics)
-Status: In Progress
+  - Task 1
+
+    - Task: Bootstrap (Documentation)
+    - Status: In Progress
+
+  - Task 2
+
+    - Task: Bootstrap (SASS Basics)
+    - Status: In Progress
