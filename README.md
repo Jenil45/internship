@@ -156,3 +156,17 @@ This is my first day and I have one module to finsh in few days
 
     - Task: Bootstrap (SASS Basics)
     - Status: In Progress
+
+## Day 11 :
+
+- CSS Learnings
+
+  - Task 1
+
+    - Task: Bootstrap (Documentation)
+    - Status: Done
+
+  - Task 2
+
+    - Task: CSS Preprocessors(SCSS)
+    - Status: In Progress
