@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+@mixin pb-x($bottom: 1em) {
+    padding-bottom: $bottom;
+}
+
+$color: dodgerblue;
+
+.header {
+    &__nav {
+        background-color: $color;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0.5em 1.5em;
+        gap: 1em;
+    }
+
+    &__logo {
+        background-color: lightblue;
+        font-size: 1.6rem;
+    }
+
+    &__ul {
+        display: grid;
+        grid-template-columns: repeat(8 , 1fr);
+        place-content: center;
+        gap: 0.6em;
+    }
+
+    &__li {
+        @extend .header__logo;
+        color: white;
+        border: none;
+        @include pb-x(0.5em);
+        cursor: pointer;
+        text-align: center;
+        border-bottom: 2px solid white;
+    }
+}
