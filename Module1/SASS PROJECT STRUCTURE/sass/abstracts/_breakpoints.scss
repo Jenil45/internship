@@ -1,0 +1,14 @@
+$breakpoints: (
+
+    ipad: 768px,
+    laptop: 1024px,
+    tv: 1200px
+);
+
+@mixin mediaquery($key) {
+    $size : map-get($map: $breakpoints, $key: $key);
+
+    @media only screen and (max-width: $size) {
+        @content;
+    }
+}

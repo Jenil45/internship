@@ -1,0 +1,17 @@
+@use '../abstracts/index' as *;
+
+:root {
+    @each $color , $shades in $colors {
+        @each $key , $value in $shades {
+            --color-#{$color}-#{$key}: #{$value};
+        }
+    }
+}
+
+@each $color , $shades in $colors {
+    @each $key , $value in $shades {
+        .text-#{$color}-#{$key}{
+            color: $value;   
+        }
+    }
+}

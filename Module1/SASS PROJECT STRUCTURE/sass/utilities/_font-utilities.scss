@@ -1,0 +1,23 @@
+@use '../abstracts/index' as *;
+
+:root {
+
+    @each $screen-size , $font-size in $type-scale {
+        @if $screen-size == mobile {
+            @each $size , $font in $font-size {
+                --fs-#{$size}: #{$font};
+            }
+        } @else {
+            // @each $screens , $key in $breakpoints {
+
+                @include mediaquery($screen-size) {
+                    @each $size , $font in $font-size {
+                        --fs-#{$size}: #{$font}; 
+                    }
+                }
+            // }
+        }
+    }
+
+}
+
