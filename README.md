@@ -170,3 +170,36 @@ This is my first day and I have one module to finsh in few days
 
     - Task: CSS Preprocessors(SCSS)
     - Status: In Progress
+
+## Day 12 :
+
+- CSS Learnings
+
+  - Task 1
+
+    - Task: CSS Preprocessors(SCSS Documentation)
+    - Status: In Progress
+
+  - Task 2
+
+    - Task: Organizing CSS with SCSS
+    - Status: In Progress
+
+## Day 13 :
+
+- CSS Learnings
+
+  - Task 1
+
+    - Task: CSS Preprocessors(SCSS Documentation)
+    - Status: Done
+
+  - Task 2
+
+    - Task: Organizing CSS with SCSS
+    - Status: Done
+
+  - Task 3
+
+    - Task: Tailwind Framework
+    - Status: In progress
