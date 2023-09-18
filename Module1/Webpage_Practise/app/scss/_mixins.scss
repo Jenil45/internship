@@ -1,0 +1,24 @@
+// breakpoints
+
+$breakpoints: ("medium": 48em , "large": 64em , "xlg": 75em);
+
+@mixin mediaq($size) {
+    @media (min-width: map-get($breakpoints , $size)) {
+        @content;
+    }
+}
+
+@mixin flex($direction , $align:center , $justify:flex-start) {
+      display: flex;
+      flex-direction: $direction;
+      align-items: $align;
+      justify-content: $justify;
+}
+
+@mixin gridcol($col , $row , $gap:1em , $align:center , $justify:center , ) {
+    display: grid;
+    grid-template-columns: repeat($col , 1fr);
+    grid-auto-rows: $row;
+    place-content: $justify $align;
+    gap: $gap;
+}

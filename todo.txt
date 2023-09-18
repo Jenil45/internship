@@ -2,10 +2,11 @@
     [ ] Module1
 */
 
-Today's Work - 05 - 09 - 2023
+Today's Work - 18 - 09 - 2023
 -----------------
-Task: CSS property and its all value, Media queries ? 
+
+Task: Responsive Website Make using SCSS and BEM 
 Status: Done
 
-Task: Advance concept of CSS & CSS3
-Status: In Progress
+Task: Tailwind Framework
+Status: Done

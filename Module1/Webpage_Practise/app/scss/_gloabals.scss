@@ -1,0 +1,86 @@
+@use './variables' as *;
+@use './mixins' as *;
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Nunito&display=swap');
+
+html {
+    // font-size: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Nunito" , sans-serif;
+    font-size: $font-sm;
+    columns: $textcolor;
+    line-height: 1.2;
+    overflow-x: hidden;
+    width: 100svw;
+    height: 100svh;
+
+    // breakpoints
+    @include mediaq(medium) {
+        font-size: $font-med;
+    }
+    @include mediaq(large) {
+        font-size: $font-lg;
+    }
+    @include mediaq(xlg) {
+        font-size: $font-xl;
+    }
+}
+
+h1 {
+    font-size: $font-h1-sm;
+    // breakpoints
+    @include mediaq(medium) {
+        font-size: $font-h1-med;
+    }
+    @include mediaq(large) {
+        font-size: $font-h1-lg;
+    }
+    @include mediaq(xlg) {
+        font-size: $font-h1-xl;
+    }
+}
+
+p {
+    line-height: 1.5;
+}
+
+a,
+a:visited,
+a:hover {
+    text-decoration: none;
+    color: black
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+textarea,
+button {
+    font: inherit;
+}
+
+.footer {
+    @include flex(row , center , center);
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project SASS</title>
+    <link rel="stylesheet" href="dist/style.css">
+    <script src="./app/js/index.js"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="nav__logo">
+            <img src="./images/wolfblack.svg" alt="">
+            <h3 class="nav__title">KNOLL & WALTERS LLP</h3>
+            <button class="nav__menu-btn" onclick="sidebarActive()">
+                <div class="nav__menu-icon"></div>
+            </button>
+        </div>
+
+        <ul id="nav__ul" class="nav__ul nav__ul--hamburger">
+            <li class="nav__li"><a href="#home">Home</a></li>
+            <li class="nav__li"><a href="#practisearea">Practical Areas</a></li>
+            <li class="nav__li"><a href="#vision">Our Vision</a></li>
+            <li class="nav__li"><a href="#attroney">Attorneys</a></li>
+            <li class="nav__li"><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="home" id="home">
+        <div class="home__article">
+            <div class="home__content">
+                <div>
+                    <h2>BOUTIQUE</h2>
+                    <h2>LAW FIRM</h2>
+                </div>
+                <p>
+                    Specializing in Commercial Law & Litigation, Insolvency & Fraud
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="practisearea" class="practise">
+        <div class="practise__container">
+            <div class="practise__content">
+                <h1 class="text-secondary">PRACTISE</h1>
+                <h1>
+                    AREAS
+                </h1>
+            </div>
+        </div>
+        <div class="practise__container practise__container--right">
+
+            <div class="practise__card">
+                <div class="practise__card-content text-primary">
+                    <div class="practise__bullet"></div>
+                    <h5>LITIGATION</h5>
+                </div>
+                <div class="practise__card-content text-third">
+                    I'm a paragraph. Click here to add your own text and edit me. It's easy.
+                </div>
+
+            </div>
+            <div class="practise__card">
+                <div class="practise__card-content text-primary">
+                    <div class="practise__bullet"></div>
+                    <h5>BUSINESS</h5>
+                </div>
+                <div class="practise__card-content text-third">
+                    I'm a paragraph. Click here to add your own text and edit me. It's easy.
+                </div>
+
+            </div>
+            <div class="practise__card">
+                <div class="practise__card-content text-primary">
+                    <div class="practise__bullet"></div>
+                    <h5>INSOLVENCY</h5>
+                </div>
+                <div class="practise__card-content text-third">
+                    I'm a paragraph. Click here to add your own text and edit me. It's easy.
+                </div>
+
+            </div>
+            <div class="practise__card">
+                <div class="practise__card-content text-primary">
+                    <div class="practise__bullet"></div>
+                    <h5>FRAUD</h5>
+                </div>
+                <div class="practise__card-content text-third">
+                    I'm a paragraph. Click here to add your own text and edit me. It's easy.
+                </div>
+
+            </div>
+            <div class="practise__card">
+                <div class="practise__card-content text-primary">
+                    <div class="practise__bullet"></div>
+                    <h5>DISPUTE RESOLUTION</h5>
+                </div>
+                <div class="practise__card-content text-third">
+                    I'm a paragraph. Click here to add your own text and edit me. It's easy.
+                </div>
+
+            </div>
+            <div class="practise__card">
+                <div class="practise__card-content text-primary">
+                    <div class="practise__bullet"></div>
+                    <h5>TAX</h5>
+                </div>
+                <div class="practise__card-content text-third">
+                    I'm a paragraph. Click here to add your own text and edit me. It's easy.
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="vision" id="vision">
+        <div class="vision__container">
+
+            <h1>
+                OUR VISION
+            </h1>
+            <div>
+
+                <p>
+                    I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
+                    double
+                    click me to add your own content and make changes to the font. Feel free to drag and drop me
+                    anywhere
+                    you
+                    like on your page. I’m a great place for you to tell a story and let your users know a little more
+                    about
+                    you.
+                </p>
+
+                <p>
+                    This is a great space to write long text about your company and your services. You can use this
+                    space to
+                    go
+                    into a little more detail about your company. Talk about your team and what services you provide.
+                    Tell
+                    your
+                    visitors the story of how you came up with the idea for your business and what makes you different
+                    from
+                    your
+                    competitors. Make your company stand out and show your visitors who you are.
+                </p>
+
+                <p>
+                    At Wix we’re passionate about making templates that allow you to build fabulous websites and it’s
+                    all
+                    thanks
+                    to the support and feedback from users like you! Keep up to date with New Releases and what’s Coming
+                    Soon in
+                    Wixellaneous in Support. Feel free to tell us what you think and give us feedback in the Wix Forum.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="bgparallex">
+        <div class="opacityparallex"></div>
+    </div>
+
+    <div class="attroney" id="attroney">
+        <h2>OUR ATTRONEYS</h2>
+
+        <div class="attroney__container">
+            <div class="attroney__card">
+                <img src="./images/attroney1.png" alt="">
+                <div class="text-third">
+                    <h4 class="attroney__name">AIDEN WALTERS</h4>
+                    <h5 class="attroney__position">PARTNER</h5>
+                </div>
+                <div class="attroney__line"></div>
+                <div>
+                    <h6 class="attroney__info">Tel: 123-456-7890</h6>
+                    <h6 class="attroney__info">info@mysite.com</h6>
+                </div>
+            </div>
+            <div class="attroney__card">
+                <img src="./images/attroney2.png" alt="">
+                <div class="text-third">
+                    <h4 class="attroney__name">JULIA KNOLL</h4>
+                    <h5 class="attroney__position">PARTNER</h5>
+                </div>
+                <div class="attroney__line"></div>
+                <div>
+                    <h6 class="attroney__info">Tel: 123-456-7890</h6>
+                    <h6 class="attroney__info">info@mysite.com</h6>
+                </div>
+            </div>
+            <div class="attroney__card">
+                <img src="./images/attroney3.png" alt="">
+                <div class="text-third">
+                    <h4 class="attroney__name">JAMES LOPEZ</h4>
+                    <h5 class="attroney__position">PARTNER</h5>
+                </div>
+                <div class="attroney__line"></div>
+                <div>
+                    <h6 class="attroney__info">Tel: 123-456-7890</h6>
+                    <h6 class="attroney__info">info@mysite.com</h6>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="contact__container">
+            <div class="contact__article">
+                <div class="contact__content">
+                    <h2>CONTACT</h2>
+                    <h2>KNOLL &</h2>
+                    <h2>WALTERS</h2>
+                </div>
+            </div>
+            <div class="contact__form">
+                <div class="contact__form-container opacityparallex-2">
+
+                    <h5>For any general queries please fill this form</h5>
+                    <form action="" class="">
+                        <div class="contact__form-content">
+                            <div class="contact__inputs">
+                                <div class="contact__input-group">
+                                    <p for="fullname" class="contact__label">Name</p>
+                                    <input type="text" id="fullname" name="fullname" class="contact__input">
+                                </div>
+                                <div class="contact__input-group">
+                                    <p for="email" class="contact__label">Email</p>
+                                    <input type="email" id="email" name="email" class="contact__input">
+                                </div>
+                                <div class="contact__input-group">
+                                    <p for="subject" class="contact__label">Subject</p>
+                                    <input type="text" id="subject" name="subject" class="contact__input">
+                                </div>
+                            </div>
+                            <div class="contact__texarea-group">
+                                <p for="message" class="contact__label">Message</p>
+                                <textarea id="message" name="message" class="contact__textarea" rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        <input type="submit" value="Submit" class="contact__btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        &copy; All rights reserved for KNOLL & WALTERS LLP
+    </footer>
+</body>
+
+</html>

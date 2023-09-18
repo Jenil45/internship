@@ -1,0 +1,99 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.contact {
+    height: auto;
+    background: url('../../images/bg4.jpg') no-repeat fixed center;
+    background-size: cover;
+    
+    @include mediaq(large) {
+        height: 90%;
+        
+    }
+
+    &__container {
+        width: 100%;
+        background-color: $secondaryred;
+        height: auto;
+        @include flex(column , center , center);
+        
+        @include mediaq(large) {
+            @include flex(row , center , center);
+        }
+    }
+    
+    &__article {
+        color: $cardbg;
+        font-weight: bold;
+        width: 100%;
+        height: 100%;
+        background-color: $thirdred;
+        padding: 2em 0;
+        
+        @include mediaq(large) {
+            width: 40%;
+            padding: 0;
+        }
+    }
+
+    &__content {
+        width: 100%;
+        @include flex(column , center , center);
+        
+        @include mediaq(large) {
+            @include flex(column , start , center);
+            float: right;
+            width: 50%;
+            height: 80%;
+        }
+    }
+    
+    &__form {
+        width: 60%;
+        height: 100%;
+
+        &-container {
+            color: $cardbg;
+            width: 100%;
+            height: 70%;
+            padding: 2em 4em;
+            @include flex(column , start , center);
+            gap: 1em;
+        }
+    }
+
+    &__inputs {
+        @include flex(column , start , center);
+        gap: 1em;
+    }
+
+    &__input-group {
+        @include flex(column , start)
+    }
+    
+    &__form-content {
+        @include flex(column , start , center);
+        gap: 1em;
+        
+        @include mediaq(large) {
+            @include flex(row , start , center);
+        }
+    }
+
+    &__btn {
+        margin-top: 2em;
+        width: 100%;
+        background-color: transparent;
+        border: 2px solid $cardbg;
+        color: $cardbg;
+        padding: 0.25em 0.5em;
+        cursor: pointer;
+        border-radius: 12px;
+        transition: 0.6s ease-in-out;
+
+        &:hover {
+            background-color: $primaryred;
+        }
+    }
+
+}

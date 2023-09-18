@@ -1,0 +1,32 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.vision {
+    height: auto;
+    padding-top: 2em;
+    background-color: $primaryred;
+    color: $cardbg;
+    text-align: center;
+    
+    @include mediaq(large) {
+        height: 85%;
+    }
+
+    &__container {
+        margin: 0 auto;
+        @include flex(column , center , center);
+        gap: 2.4em;
+        width: 90%;
+        
+        @include mediaq(large) {
+            width: 70%;
+        }
+
+    }
+}
+
+.bgparallex {
+    height:80%;
+    background: url('../../images/bg3.jpg') no-repeat fixed center;
+    background-size: cover;
+}

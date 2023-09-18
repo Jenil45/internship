@@ -1,0 +1,44 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.attroney {
+    height: auto;
+    padding: 2em 0;
+    text-align: center;
+    background-color: $thirdred;
+    @include flex(column , center , center);
+    gap: 2em;
+    
+    @include mediaq(large) {
+        height: 90%;
+    }
+
+
+    &__container {
+        margin: 0 auto;
+        @include gridcol(1 ,auto , 2em);
+        
+        
+        @include mediaq(large) {
+            width: 70%;
+            @include gridcol(3 ,auto , 2em);
+
+        }
+    }
+
+    &__card {
+        @include flex(column , center , center);
+        gap: 1em;
+
+        img {
+            width: 200px;
+        }
+    }
+
+    &__line {
+        height: 1px;
+        width: 60%;
+        background-color: $primaryred;
+        margin: 0 auto;
+    } 
+}
