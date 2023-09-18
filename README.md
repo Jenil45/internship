@@ -203,3 +203,17 @@ This is my first day and I have one module to finsh in few days
 
     - Task: Tailwind Framework
     - Status: In progress
+
+## Day 14 :
+
+- CSS Learnings
+
+  - Task 1
+
+    - Task: Responsive Website Make using SCSS and BEM
+    - Status: Done
+
+  - Task 2
+
+    - Task: Tailwind Framework
+    - Status: Done
