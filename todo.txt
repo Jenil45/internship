@@ -2,11 +2,11 @@
     [ ] Module1
 */
 
-Today's Work - 18 - 09 - 2023
+Today's Work - 19 - 09 - 2023
 -----------------
 
-Task: Responsive Website Make using SCSS and BEM 
+Task: LESS Basics
 Status: Done
 
-Task: Tailwind Framework
-Status: Done
+Task: LESS Advance
+Status: In Progress
