@@ -217,3 +217,17 @@ This is my first day and I have one module to finsh in few days
 
     - Task: Tailwind Framework
     - Status: Done
+
+## Day 15 :
+
+- CSS Learnings
+
+  - Task 1
+
+    - Task: LESS Basics
+    - Status: Done
+
+  - Task 2
+
+    - Task: LESS Advance
+    - Status: In Progress
