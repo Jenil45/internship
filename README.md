@@ -245,3 +245,22 @@ This is my first day and I have one module to finsh in few days
 
     - Task: Bootstrap, Tailwind CSS, Materialize CSS, Sementic UI
     - Status: In Progress
+
+## Day 17 :
+
+- CSS Learnings
+
+  - Task 1
+
+    - Task: Materialize CSS, Sementic UI
+    - Status: Done
+
+  - Task 2
+
+    - Task: Given task starter template using SCSS
+    - Status: Done
+
+  - Task 3
+
+    - Task: Given task's Navbar Homepage
+    - Status: Done
