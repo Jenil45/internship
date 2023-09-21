@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+body {
+  background-color: hsl(210, 100%, 86%);
+  min-height: 100svh;
+  width: 100svw;
+  color-scheme: red , white;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+  padding: 1em 2em;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 2px 1px 1px 1px #616263;
+  -webkit-box-reflect: below 100px;
+}
+.header__logo {
+  font-size: 2.1rem;
+}
+.header__nav {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+}
+.header__li {
+  cursor: pointer;
+}
+.header__btngrp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.header__btn {
+  padding: 0.55em 0.75em;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.header__btn--login {
+  background-color: hsl(0, 93%, 64%);
+  border-color: hsl(0, 93%, 64%);
+}
+.header__btn--login:hover {
+  background-color: transparent;
+  color: hsl(0, 93%, 64%);
+}
+.header__btn--contact {
+  background-color: hsl(209, 94%, 65%);
+  border-color: hsl(209, 94%, 65%);
+}
+.header__btn--contact:hover {
+  background-color: transparent;
+  color: hsl(209, 94%, 65%);
+}

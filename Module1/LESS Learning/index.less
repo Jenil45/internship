@@ -1,0 +1,78 @@
+@import "_variables.less";
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+.flex-prop(@align , @justify , @gap:1em) {
+    display: flex;
+    align-items: @align;
+    justify-content: @justify;
+    gap: @gap;
+}
+
+body {
+    background-color: lighten(@bg-color,30%);
+    min-height: 100svh;
+    width: 100svw;
+
+    color-scheme: red , white;
+}
+
+.header {
+    .flex-prop(center , space-between , 2em);
+    padding: 1em 2em;
+    background-color: @color;
+    box-shadow: 2px 1px 1px 1px #616263;
+    -webkit-box-reflect: below 100px;
+
+    &__logo {
+        font-size: 2.1rem;
+    }
+
+    &__nav {
+        width: auto;
+        .flex-prop(center , center , 1.5em)
+    }
+
+    &__li {
+        cursor: pointer;
+    }
+
+    &__btngrp {
+        .flex-prop(center , center , 1em)
+    }
+
+    &__btn {
+        padding: 0.55em 0.75em;
+        border: 1px solid transparent;
+        border-radius: 8px;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.4s ease-in-out;
+
+        &--login {
+            background-color: @login-bg;
+            border-color: @login-bg;
+            
+            &:hover {
+                background-color: transparent;
+                color: @login-bg;
+            }
+        }
+        &--contact {
+            background-color: @contact-bg;
+            border-color: @contact-bg;
+
+            &:hover {
+                background-color: transparent;
+                color: @contact-bg;
+            }
+        }
+    }
+}
