@@ -28,18 +28,19 @@ customElements.define("card-elem" , CardElem);
 
 function createCard()
 {
-    const titleE = document.getElementsByName("itemName");
-    const titleC = document.getElementsByName("itemCategory");
-    const titleD = document.getElementsByName("itemDesc");
+    // e.preventDefault()
+    const titleE = document.getElementById("itemName");
+    const titleC = document.getElementById("itemCategory");
+    const titleD = document.getElementById("itemDesc");
 
     var card = new CardElem("itemCard");
 
-    // card.makeTitle(titleE.value);
-    card.makeTitle("Title");
-    // card.makeCategory(titleC.value);
-    card.makeCategory("category 2");
-    // card.makeDescription(titleD.value);
-    card.makeDescription("vbdvvbdvbd chjdvbvhdbvbc");
+    card.makeTitle(titleE.value);
+    // card.makeTitle("Title");
+    card.makeCategory(titleC.value);
+    // card.makeCategory("category 2");
+    card.makeDescription(titleD.value);
+    // card.makeDescription("vbdvvbdvbd chjdvbvhdbvbc");
 
     document.querySelector(".itemContainer").appendChild(card)
 }

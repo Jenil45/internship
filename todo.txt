@@ -1,3 +1,15 @@
 /*TODO
     [ ] Module1
 */
+
+
+Today's Work - 23 - 09 - 2023
+-----------------
+
+Task: Website Responsive Techniques 
+Status: Done
+
+Task: Task given Complted (Make responsive webpage) 
+Status: Done
+
+ 

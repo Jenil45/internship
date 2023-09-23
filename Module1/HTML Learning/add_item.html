@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Items</title>
     <link rel="stylesheet" href="add_item.css">
-    <script src="./custom-card-elem.js"></script>
 </head>
 
 <body class="container">
@@ -48,7 +47,7 @@
     <div class="" id="addItem">
 
         <h1>Add Item</h1>
-        <form class="itemForm" action="">
+        <div class="itemForm">
             <div class="inputContainer">
                 <label for="itemName" class="itemLabel">Item Name</label>
                 <input type="text" id="itemName" placeholder="Item name here..." name="itemName" required="required">
@@ -83,10 +82,9 @@
             </div>
 
 
-            <input type="submit" value="Add Item" class="btn">
             <button onclick="createCard()">Add Card</button>
 
-        </form>
+        </div>
     </div>
 
     <div class="line"></div>
@@ -109,6 +107,7 @@
 
 
 </body>
+<script src="./custom-card-elem.js"></script>
 
 
 

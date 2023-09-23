@@ -264,3 +264,26 @@ This is my first day and I have one module to finsh in few days
 
     - Task: Given task's Navbar Homepage
     - Status: Done
+
+## Day 18 :
+
+- CSS Learnings
+
+  - Task: About Section
+  - Task: Services Section
+  - Task: Contact Section
+  - Task: Offer Section
+  - Task: Task 1 completed
+  - Status: Done
+
+## Day 19 :
+
+- CSS Learnings
+
+  - Task: Website Responsive Techniques
+  - Status: Done
+
+  - Task: Task given Complted (Make responsive webpage)
+  - Status: Done
+
+## Today's Work - 23 - 09 - 2023
