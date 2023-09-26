@@ -286,4 +286,12 @@ This is my first day and I have one module to finsh in few days
   - Task: Task given Complted (Make responsive webpage)
   - Status: Done
 
-## Today's Work - 23 - 09 - 2023
+## Day 20 :
+
+- JS Learnings
+
+  - Task: JavaScript History and Use
+  - Task: How to use JavaScript
+  - Task: JavaScript statement
+  - Task: JavaScript syntax , variables , datatypes , functions
+  - Status: Done
