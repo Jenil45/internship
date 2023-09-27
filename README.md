@@ -295,3 +295,14 @@ This is my first day and I have one module to finsh in few days
   - Task: JavaScript statement
   - Task: JavaScript syntax , variables , datatypes , functions
   - Status: Done
+
+## Day 21 :
+
+- JS Learnings
+
+  - Task: JavaScript functions
+  - Task: JavaScript objects
+  - Task: JavaScript strings and string methods
+  - Task: JavaScript numbers
+  - Task: JavaScript arrays and methods
+  - Status: Done
