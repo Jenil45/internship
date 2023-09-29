@@ -306,3 +306,13 @@ This is my first day and I have one module to finsh in few days
   - Task: JavaScript numbers
   - Task: JavaScript arrays and methods
   - Status: Done
+
+## Day 22 :
+
+- JS Learnings
+
+  - Task: JavaScript array iteration(entires , reduce , map , for each)
+  - Task: JavaScript date
+  - Task: JavaScript date formats and methods
+  - Task: JavaScript if else , switch case and loops(for , for in , for of)
+  - Status: Done
