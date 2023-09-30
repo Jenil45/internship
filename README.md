@@ -316,3 +316,17 @@ This is my first day and I have one module to finsh in few days
   - Task: JavaScript date formats and methods
   - Task: JavaScript if else , switch case and loops(for , for in , for of)
   - Status: Done
+
+## Day 23 :
+
+- JS Learnings
+
+  - Task: JavaScript iterables
+  - Task: JavaScript sets
+  - Task: JavaScript bitwise operators
+  - Task: JavaScript Regular expression and its rules
+  - Task : Javascript type conversion (toString, parseFloat, parseInt)
+  - Status: Done
+
+  - Task: Javascript error and error handling (try catch , throws etc.)
+  - Status: In progress

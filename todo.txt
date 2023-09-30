@@ -3,12 +3,16 @@
 */
 
 
-Today's Work - 29 - 09 - 2023
+Today's Work - 30 - 09 - 2023
 -----------------
 
-Task: JavaScript array iteration(entires , reduce , map , for each)
-Task: JavaScript date
-Task: JavaScript date formats and methods
-Task: JavaScript if else , switch case and loops(for , for in , for of)
+Task: JavaScript iterables
+Task: JavaScript sets
+Task: JavaScript bitwise operators
+Task: JavaScript Regular expression and its rules
+Task : Javascript type conversion (toString, parseFloat, parseInt)
 Status: Done
+
+Task: Javascript error and error handling (try catch , throws etc.)
+Status: In progress
  
