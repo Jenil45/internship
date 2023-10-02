@@ -3,16 +3,12 @@
 */
 
 
-Today's Work - 30 - 09 - 2023
+Today's Work - 02 - 10 - 2023
 -----------------
 
-Task: JavaScript iterables
-Task: JavaScript sets
-Task: JavaScript bitwise operators
-Task: JavaScript Regular expression and its rules
-Task : Javascript type conversion (toString, parseFloat, parseInt)
-Status: Done
-
+Task: JavaScript functions , object revise
 Task: Javascript error and error handling (try catch , throws etc.)
-Status: In progress
+Task: JavaScript scope
+Task: JavaScript maps and sets
+Status: Done
  

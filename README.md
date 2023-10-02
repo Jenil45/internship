@@ -330,3 +330,13 @@ This is my first day and I have one module to finsh in few days
 
   - Task: Javascript error and error handling (try catch , throws etc.)
   - Status: In progress
+
+## Day 24 :
+
+- JS Learnings
+
+  - Task: JavaScript functions , object revise
+  - Task: Javascript error and error handling (try catch , throws etc.)
+  - Task: JavaScript scope
+  - Task: JavaScript maps and sets
+  - Status: Done
