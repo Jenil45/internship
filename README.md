@@ -340,3 +340,15 @@ This is my first day and I have one module to finsh in few days
   - Task: JavaScript scope
   - Task: JavaScript maps and sets
   - Status: Done
+
+## Day 25 :
+
+- JS Learnings
+
+  - Task: JavaScript strict mode
+  - Task: Javascript this keyword
+  - Task: JavaScript arrow function
+  - Status: Done
+
+  - Task: Using HTML elements with Javascript (use drag and drop , canvas , web storage etc.)
+  - Status: In progress

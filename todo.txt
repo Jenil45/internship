@@ -3,12 +3,14 @@
 */
 
 
-Today's Work - 02 - 10 - 2023
+Today's Work - 03 - 10 - 2023
 -----------------
 
-Task: JavaScript functions , object revise
-Task: Javascript error and error handling (try catch , throws etc.)
-Task: JavaScript scope
-Task: JavaScript maps and sets
+Task: JavaScript strict mode
+Task: Javascript this keyword
+Task: JavaScript arrow function
 Status: Done
+
+Task: Using HTML elements with Javascript (use drag and drop , canvas , web storage etc.)
+Status: In progress
  
