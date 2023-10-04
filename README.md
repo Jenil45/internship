@@ -352,3 +352,15 @@ This is my first day and I have one module to finsh in few days
 
   - Task: Using HTML elements with Javascript (use drag and drop , canvas , web storage etc.)
   - Status: In progress
+
+## Day 26 :
+
+- JS Learnings
+
+  - Task: Using HTML elements with Javascript (use drag and drop , canvas , web storage etc.)
+  - Task: HTML events
+  - Task: HTML audio/video
+  - Status: Done
+
+  - Task: JS classes
+  - Status: In progress

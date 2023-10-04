@@ -3,14 +3,14 @@
 */
 
 
-Today's Work - 03 - 10 - 2023
------------------
+    Today's Work - 04 - 10 - 2023
+    -----------------
 
-Task: JavaScript strict mode
-Task: Javascript this keyword
-Task: JavaScript arrow function
-Status: Done
+    Task: Using HTML elements with Javascript (use drag and drop , canvas , web storage etc.)
+    Task: HTML events
+    Task: HTML audio/video
+    Status: Done
 
-Task: Using HTML elements with Javascript (use drag and drop , canvas , web storage etc.)
-Status: In progress
+    Task: JS classes
+    Status: In progress
  
