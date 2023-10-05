@@ -3,14 +3,14 @@
 */
 
 
-    Today's Work - 04 - 10 - 2023
+    Today's Work - 05 - 10 - 2023
     -----------------
 
-    Task: Using HTML elements with Javascript (use drag and drop , canvas , web storage etc.)
-    Task: HTML events
-    Task: HTML audio/video
+    Task: JS classes
+    Task: JS modules
+    Task: JS JSON
+    Task: JS coding convention
     Status: Done
 
-    Task: JS classes
     Status: In progress
  

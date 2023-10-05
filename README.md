@@ -364,3 +364,13 @@ This is my first day and I have one module to finsh in few days
 
   - Task: JS classes
   - Status: In progress
+
+## Day 27 :
+
+- JS Learnings
+
+  - Task: JS classes
+  - Task: JS modules
+  - Task: JS JSON
+  - Task: JS coding convention
+  - Status: Done
